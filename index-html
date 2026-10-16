@@ -8,3 +8,20 @@
     <h1>Water Wash</h1>
 </body>
 </html>
+<div class="game-container">
+    <div class="game-board">
+        <!-- Row 1 -->
+        <div class="grid-cell"><div class="drop blue idle">💧</div></div>
+        <div class="grid-cell"><div class="drop cyan idle">💧</div></div>
+        <div class="grid-cell"><div class="drop teal idle">💧</div></div>
+        <div class="grid-cell"><div class="drop blue striped-h idle">💧</div></div>
+        <div class="grid-cell"><div class="drop blue idle">💧</div></div>
+        <div class="grid-cell"><div class="drop cyan idle">💧</div></div>
+        <div class="grid-cell"><div class="drop teal idle">💧</div></div>
+        <div class="grid-cell"><div class="drop blue idle">💧</div></div>
+        
+        <!-- Row 2 (Example showing a piece falling into place) -->
+        <div class="grid-cell"><div class="drop cyan fall">💧</div></div>
+        <!-- ... Repeat for 64 cells total ... -->
+    </div>
+</div>
